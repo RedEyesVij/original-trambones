@@ -73,3 +73,18 @@ h2 {
   font-size: 12px;
   font-weight: bold;
 }
+
+.main-cantainer {
+  padding-left: 180px;
+}
+
+.bold-text {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.description {
+  font-size: 14px;
+  margin-top: 0;
+}
