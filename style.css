@@ -42,8 +42,6 @@ p {
   color: black;
 }
 
-
-
 .slog-container {
   display: flex;
   margin-top: 20px;
@@ -100,4 +98,78 @@ p {
 
 #video {
   width: 60%;
+}
+
+.main-price-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.price-container {
+  width: 30%;
+  border: solid black;
+  border-width: 1px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.model-trambone {
+  width: 100%;
+  height: 30px;
+  padding-top: 15px;
+  background-color: #ddd;
+  text-align: center;
+  font-weight: 800;
+}
+
+.price {
+  padding-top: 15px;
+}
+
+.argument {
+  list-style: none;
+}
+
+#select {
+  width: 90px;
+  height: 40px;
+  background-color: #f1c40f;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+}
+
+footer {
+  background-color: #ddd;
+}
+
+.footer-link-container {
+  display: flex;
+  justify-content: right;
+  justify-content: end;
+  padding-top: 20px;
+}
+
+.footer-link {
+  padding: 10px;
+  padding-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.copyright {
+  display: flex;
+  justify-content: right;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
