@@ -2,6 +2,12 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: #eee;
+  font-family: Roboto;
+}
+
+h2,
+p {
+  margin: 0;
 }
 
 .header-container {
@@ -12,6 +18,7 @@ body {
   align-items: center;
   position: sticky;
   top: 0;
+  background-color: #eee;
 }
 
 .logo-container {
@@ -44,15 +51,12 @@ body {
   text-align: center;
 }
 
-h2 {
-  font-family: Roboto;
-}
-
 .input-post {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 15px;
 }
 
 #email {
@@ -75,16 +79,13 @@ h2 {
 }
 
 .main-cantainer {
-  padding-left: 180px;
+  display: flex;
+  padding-left: 80px;
+  padding-top: 20px;
 }
 
-.bold-text {
-  font-weight: bold;
-  font-size: 18px;
-  margin-bottom: 0;
-}
-
-.description {
-  font-size: 14px;
-  margin-top: 0;
+.icon {
+  min-width: 45px;
+  padding-right: 80px;
+  color: darkorange;
 }
