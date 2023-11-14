@@ -6,8 +6,10 @@ body {
 }
 
 h2,
-p {
+p,
+ul {
   margin: 0;
+  padding-inline-start: 0;
 }
 
 .header-container {
