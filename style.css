@@ -188,14 +188,35 @@ footer {
     flex-direction: column;
   }
 
+  .nav-link-container {
+    padding-left: 15px;
+  }
+
   .main-price-container {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 15px
   }
 
   .price-container {
     width: 40%;
+  }
+}
+
+@media (max-width: 650px) {
+  .nav-link-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-container {
+    flex-direction: column;
+    padding: 0px 20px;
   }
 }
