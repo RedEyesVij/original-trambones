@@ -76,6 +76,7 @@ ul {
   border-radius: 3px;
   font-size: 12px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .main-cantainer {
@@ -154,6 +155,7 @@ ul {
   font-weight: bold;
   text-align: center;
   margin: 20px;
+  cursor: pointer;
 }
 
 footer {
